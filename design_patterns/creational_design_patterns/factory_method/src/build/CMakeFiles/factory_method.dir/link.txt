@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/factory_method.dir/Creator.cpp.o CMakeFiles/factory_method.dir/main.cpp.o CMakeFiles/factory_method.dir/Person.cpp.o CMakeFiles/factory_method.dir/Zombie.cpp.o CMakeFiles/factory_method.dir/PersonCreator.cpp.o CMakeFiles/factory_method.dir/ZombieCreator.cpp.o -o factory_method 
