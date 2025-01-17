@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/animal_program.dir/Application.cpp.o CMakeFiles/animal_program.dir/Creator.cpp.o CMakeFiles/animal_program.dir/main.cpp.o CMakeFiles/animal_program.dir/Person.cpp.o CMakeFiles/animal_program.dir/Zombie.cpp.o CMakeFiles/animal_program.dir/PersonCreator.cpp.o CMakeFiles/animal_program.dir/ZombieCreator.cpp.o -o animal_program 

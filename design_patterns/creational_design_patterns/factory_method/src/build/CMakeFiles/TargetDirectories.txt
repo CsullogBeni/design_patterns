@@ -1,3 +1,0 @@
-/mnt/c/Users/Acer/OneDrive - Eotvos Lorand Tudomanyegyetem/Dokumentumok/git/design_patterns/design_patterns/creational_design_patterns/factory_method/src/build/CMakeFiles/factory_method.dir
-/mnt/c/Users/Acer/OneDrive - Eotvos Lorand Tudomanyegyetem/Dokumentumok/git/design_patterns/design_patterns/creational_design_patterns/factory_method/src/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Acer/OneDrive - Eotvos Lorand Tudomanyegyetem/Dokumentumok/git/design_patterns/design_patterns/creational_design_patterns/factory_method/src/build/CMakeFiles/rebuild_cache.dir

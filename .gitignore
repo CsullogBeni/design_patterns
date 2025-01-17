@@ -1,0 +1,11 @@
+# Ignore all "build" directories
+build/
+
+# Ignore "build" directories in any subdirectory
+**/build/
+
+# Ignore all ".vscode" directories
+.vscode/
+
+# Ignore ".vscode" directories in any subdirectory
+**/.vscode/
