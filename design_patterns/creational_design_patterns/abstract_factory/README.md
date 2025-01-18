@@ -7,7 +7,7 @@ The Abstract Factory pattern is a creational design pattern that provides a way 
 
 The UML class diagram for the Abstract Factory pattern is shown below:
 
-![UML Class Diagram](../abstract_factory/uml_class_diagram.png)
+![UML Class Diagram](../abstract_factory/documentation/abstract_factory.drawio.png)
 
 ## Source Code
 
