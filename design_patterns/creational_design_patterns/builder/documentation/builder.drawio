@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="1 oldal" id="IHzoFzQdKnAnM-eT6vu1">
+    <mxGraphModel dx="913" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-1" value="Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-2" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-4" value="+ Reset(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=10;fillColor=#fff2cc;strokeColor=#d6b656;endArrow=block;endFill=0;" edge="1" parent="1" source="uvys9e28tfU0Z2rd-oe9-5" target="uvys9e28tfU0Z2rd-oe9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-5" value="PizzaBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-6" value="- pizza:&amp;nbsp; Pizza" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-5">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-5">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-8" value="+ Reset(): void&lt;div&gt;+ AddSanMarzano(): void&lt;/div&gt;&lt;div&gt;+ AddMozzarella(): void&lt;/div&gt;&lt;div&gt;+ AddOliveOil(): void&lt;/div&gt;&lt;div&gt;+ AddProscuittoCotto(): void&lt;/div&gt;&lt;div&gt;+ AddPicanteSalami(): void&lt;/div&gt;&lt;div&gt;+ AddGranaPadano(): void&lt;/div&gt;&lt;div&gt;+ GetPizza(): Pizza&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-5">
+          <mxGeometry y="60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-10" value="Pizza" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="160" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-11" value="- sanMarzano: bool&lt;div&gt;- mozzarella: bool&lt;/div&gt;&lt;div&gt;- oliveOil: bool&lt;/div&gt;&lt;div&gt;- proscuittoCotto: bool&lt;/div&gt;&lt;div&gt;- picanteSalami: bool&lt;/div&gt;&lt;div&gt;- granaPadano: bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-10">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-10">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-13" value="+ Reset(): void&lt;div&gt;+ AddSanMarzano(): void&lt;/div&gt;&lt;div&gt;+ AddMozzarella(): void&lt;/div&gt;&lt;div&gt;+ AddOliveOil(): void&lt;/div&gt;&lt;div&gt;+ AddProscuittoCotto(): void&lt;/div&gt;&lt;div&gt;+ AddPicanteSalami(): void&lt;/div&gt;&lt;div&gt;+ AddGranaPadano(): void&lt;/div&gt;&lt;div&gt;+ GetPizza(): Pizza&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-10">
+          <mxGeometry y="138" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;endSize=10;" edge="1" parent="1" source="uvys9e28tfU0Z2rd-oe9-14" target="uvys9e28tfU0Z2rd-oe9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-14" value="Director" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="265" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-15" value="- builder: Pizzabuilder&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-14">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-14">
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-17" value="+ SetBuilder(Pizzabuilder): void&lt;div&gt;+ MakeMargherita(): void&lt;/div&gt;&lt;div&gt;+ MakeCotto(): void&lt;/div&gt;&lt;div&gt;+ MakePizzizare(): void&lt;/div&gt;&lt;div&gt;+ MakeBianca(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uvys9e28tfU0Z2rd-oe9-14">
+          <mxGeometry y="60" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uvys9e28tfU0Z2rd-oe9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;endSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uvys9e28tfU0Z2rd-oe9-5" target="uvys9e28tfU0Z2rd-oe9-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="290" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
