@@ -14,3 +14,7 @@ The project is structured as follows:
 - The `CMakeLists.txt` file is used to build the project using CMake.
 
 The project is built using CMake.
+
+## Credits
+
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
