@@ -1,7 +1,7 @@
  # Adapter Pattern
 
 This project demonstrates the implementation of the Adapter design pattern within the `src` folder. 
-The Singleton design pattern is a structural design pattern that provides a way to convert one interface into another. Allowing the two objects to work together.
+The Adapter design pattern is a structural design pattern that provides a way to convert one interface into another. Allowing the two objects to work together.
 
 ## UML Class Diagram
 
