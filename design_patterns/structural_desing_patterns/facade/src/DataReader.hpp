@@ -1,0 +1,38 @@
+#pragma once
+
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <list>
+
+/**
+ * @brief Class to read data from a file.
+ *
+ * This class provides a single method, readData, to read the data from a file.
+ * It reads the data from a file and stores it in a list of floats.
+ */
+class DataReader
+{
+public:
+    /**
+     * @brief Reads the data from a csv file.
+     *
+     * This method reads the data from a file and stores it in a list of floats.
+     * The file is expected to be a CSV file where the first line is a header.
+     * The method checks if the file can be opened and if it is empty. If the
+     * file can not be opened, an error message is printed to the standard error
+     * output. If the file is empty, the method returns an empty list of floats.
+     * The method reads the file line by line and splits each line into individual
+     * cells by using the semicolon as a separator. The method then converts each
+     * cell to a float and stores it in a list of floats. The method also checks
+     * if the conversion to float is successful and if not, an error message is
+     * printed to the standard error output. Finally, the method returns the list
+     * of floats.
+     *
+     * @param fileName The name of the file to read from.
+     * @return A list of floats containing the data from the file.
+     */
+    std::list<std::list<float>> static readData(std::string fileName);
+};
+
