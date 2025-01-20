@@ -33,6 +33,6 @@ public:
      * @param fileName The name of the file to read from.
      * @return A list of floats containing the data from the file.
      */
-    std::list<std::list<float>> static readData(std::string fileName);
+    std::list<std::list<float>> static ReadData(std::string fileName);
 };
 

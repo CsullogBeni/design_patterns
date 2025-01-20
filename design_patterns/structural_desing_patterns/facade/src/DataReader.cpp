@@ -19,7 +19,7 @@
  * @param fileName The name of the file to read from.
  * @return A list of floats containing the data from the file.
  */
-std::list<std::list<float>> DataReader::readData(std::string fileName) {
+std::list<std::list<float>> DataReader::ReadData(std::string fileName) {
     std::list<std::list<float>> data;
     std::ifstream file(fileName);
     

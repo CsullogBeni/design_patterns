@@ -60,7 +60,7 @@ void StatisticMakerController::CreateDataBase() {
  * @param fileName The name of the file to read from.
  */
 void StatisticMakerController::ReadData(std::string fileName) {
-    auto data = this->dataReader->readData(fileName);
+    auto data = this->dataReader->ReadData(fileName);
 
     for (const auto& row : data) {
         for (float value : row) {
