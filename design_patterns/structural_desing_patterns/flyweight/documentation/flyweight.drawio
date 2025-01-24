@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="1 oldal" id="y8wP4en6W_S5uhmjR0Ii">
+    <mxGraphModel dx="1551" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;endSize=12;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;flowAnimation=0;shadow=0;startArrow=diamondThin;startFill=1;startSize=12;" edge="1" parent="1" source="sLAYlWNsPWW_obLXXQbx-1" target="sLAYlWNsPWW_obLXXQbx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-1" value="Forest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-2" value="- trees: List&amp;lt;Tree&amp;gt;&lt;div&gt;- treeFactory: TreeFactory&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-1">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-1">
+          <mxGeometry y="70" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-4" value="+ PlanTree(string, string, string,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int, int): void&lt;div&gt;+ Display(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-1">
+          <mxGeometry y="78" width="190" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-5" value="TreeFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="190" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-6" value="&lt;div&gt;&lt;div&gt;- treeTypes: List&amp;lt;TreeType&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-5">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-5">
+          <mxGeometry y="60" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-8" value="+ GetTreeType(string, string, string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-5">
+          <mxGeometry y="68" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=12;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="sLAYlWNsPWW_obLXXQbx-10" target="sLAYlWNsPWW_obLXXQbx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-10" value="Tree" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="195" y="390" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-11" value="&lt;div&gt;&lt;div&gt;- treeType: TreeType&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- xCord: int&lt;/div&gt;&lt;div&gt;- yCord: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-10">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-10">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-13" value="+ Tree(TreeFactory, string, string,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;string, int, int)&lt;div&gt;+ Display(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-10">
+          <mxGeometry y="88" width="200" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=12;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="sLAYlWNsPWW_obLXXQbx-10" target="sLAYlWNsPWW_obLXXQbx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="400" as="sourcePoint" />
+            <mxPoint x="305" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-17" value="TreeType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="405" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-18" value="&lt;div&gt;&lt;div&gt;- name: string&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- color: string&lt;/div&gt;&lt;div&gt;- textrue: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-17">
+          <mxGeometry y="26" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-17">
+          <mxGeometry y="80" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-20" value="+ TreeType(string, string, string)&lt;div&gt;+ GetName(): string&lt;/div&gt;&lt;div&gt;+ GetColor(): string&lt;/div&gt;&lt;div&gt;+ GetTextrue(): string&lt;/div&gt;&lt;div&gt;+ Display(int, int): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sLAYlWNsPWW_obLXXQbx-17">
+          <mxGeometry y="88" width="220" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;endSize=12;targetPerimeterSpacing=0;edgeStyle=orthogonalEdgeStyle;flowAnimation=0;shadow=0;startArrow=diamondThin;startFill=1;startSize=12;" edge="1" parent="1" source="sLAYlWNsPWW_obLXXQbx-5" target="sLAYlWNsPWW_obLXXQbx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="250" as="sourcePoint" />
+            <mxPoint x="110" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLAYlWNsPWW_obLXXQbx-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=12;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="sLAYlWNsPWW_obLXXQbx-10" target="sLAYlWNsPWW_obLXXQbx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="401" as="sourcePoint" />
+            <mxPoint x="68" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

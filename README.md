@@ -5,7 +5,7 @@ This project provides an implementation of the classical design patterns in C++.
 The project includes the following design patterns:
 
 - Creational Design Patterns: Singleton, Factory Method, Abstract Factory, Builder, Prototype
-- Structural Design Patterns: Adapter, Bridge, Composite, Decorator, Flyweight, Proxy
+- Structural Design Patterns: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
 - Behavioral Design Patterns: Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
 
 ## Project Structure
