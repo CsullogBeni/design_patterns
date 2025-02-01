@@ -1,7 +1,7 @@
  # Mememnto Pattern
 
 This project demonstrates the implementation of the Mememnto design pattern within the `src` folder. 
-The Observer design pattern is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
+The Memento design pattern is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 
 ## UML Class Diagram
 
