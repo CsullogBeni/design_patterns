@@ -20,24 +20,23 @@ int main(){
     director->SetBuilder(builder);
 
     director->MakeMargherita();
-    Pizza* pizza = builder->GetPizza();
-    std::cout << pizza->toString() << std::endl;
+    Pizza margherita = builder->GetPizza();
+    std::cout << margherita.toString() << std::endl;
 
     director->MakeCotto();
-    pizza = builder->GetPizza();
-    std::cout << pizza->toString() << std::endl;
+    Pizza cotto = builder->GetPizza();
+    std::cout << cotto.toString() << std::endl;
 
     director->MakePizzizare();
-    pizza = builder->GetPizza();
-    std::cout << pizza->toString() << std::endl;
+    Pizza pizzizare = builder->GetPizza();
+    std::cout << pizzizare.toString() << std::endl;
 
     director->MakeBianca();
-    pizza = builder->GetPizza();
-    std::cout << pizza->toString() << std::endl;
+    Pizza bianca = builder->GetPizza();
+    std::cout << bianca.toString() << std::endl;
 
     delete director;
     delete builder;
-    delete pizza;
     
     return 0;
 }

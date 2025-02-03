@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include "Builder.hpp"
 #include "Pizza.hpp"
 
@@ -21,7 +22,8 @@ private:
      * This is a pointer to the object of class Pizza that is being
      * constructed by the builder.
      */
-    Pizza* pizza;
+    Pizza pizza;
+
 public:
     /**
      * Constructor: Initializes a new PizzaBuilder object with a
@@ -98,5 +100,5 @@ public:
      *
      * @return A pointer to the constructed Pizza object.
      */
-    Pizza* GetPizza();
+    Pizza GetPizza();
 };

@@ -29,7 +29,7 @@ PizzaBuilder::~PizzaBuilder()
  */
 void PizzaBuilder::Reset()
 {
-    this->pizza = new Pizza();
+    pizza = Pizza();
 }
 
 /**
@@ -40,7 +40,7 @@ void PizzaBuilder::Reset()
  */
 void PizzaBuilder::AddSanMarzano()
 {
-    this->pizza->AddSanMarzano();
+    this->pizza.AddSanMarzano();
 }
 
 /**
@@ -51,7 +51,7 @@ void PizzaBuilder::AddSanMarzano()
  */
 void PizzaBuilder::AddMozzarella()
 {
-    this->pizza->AddMozzarella();
+    this->pizza.AddMozzarella();
 }
 
 /**
@@ -62,7 +62,7 @@ void PizzaBuilder::AddMozzarella()
  */
 void PizzaBuilder::AddOliveOil()
 {
-    this->pizza->AddOliveOil();
+    this->pizza.AddOliveOil();
 }
 
 /**
@@ -73,7 +73,7 @@ void PizzaBuilder::AddOliveOil()
  */
 void PizzaBuilder::AddProscuittoCotto()
 {
-    this->pizza->AddProscuittoCotto();
+    this->pizza.AddProscuittoCotto();           
 }
 
 /**
@@ -84,7 +84,7 @@ void PizzaBuilder::AddProscuittoCotto()
  */
 void PizzaBuilder::AddPicanteSalami()
 {
-    this->pizza->AddPicanteSalami();
+    this->pizza.AddPicanteSalami();
 }
 
 /**
@@ -95,7 +95,7 @@ void PizzaBuilder::AddPicanteSalami()
  */
 void PizzaBuilder::AddGranaPadano()
 {
-    this->pizza->AddGranaPadano();
+    this->pizza.AddGranaPadano();       
 }
 
 /**
@@ -106,9 +106,9 @@ void PizzaBuilder::AddGranaPadano()
  *
  * @return A pointer to the constructed Pizza object.
  */
-Pizza* PizzaBuilder::GetPizza()
+Pizza PizzaBuilder::GetPizza()
 {
-    Pizza* result = this->pizza;
+    Pizza result = this->pizza;
     this->Reset();
     return result;
 }
