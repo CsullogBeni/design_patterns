@@ -42,7 +42,7 @@ public:
     /**
      * @brief Destructor for the Equipment class
      */
-    ~Equipment();
+    ~Equipment() {};
 
     /**
      * @brief Getter method for the armor value

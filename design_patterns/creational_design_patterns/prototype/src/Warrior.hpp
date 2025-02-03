@@ -39,7 +39,9 @@ public:
     /**
      * @brief Destructor for the Warrior class.
      */
-    ~Warrior() {};
+    ~Warrior() {
+        delete equipment;
+    };
 
     /**
      * @brief Clones the Warrior object.
