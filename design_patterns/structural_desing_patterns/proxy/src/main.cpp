@@ -1,6 +1,12 @@
 #include "BankProxy.hpp"
 
 
+/**
+ * @brief Entry point of the application.
+ *
+ * This function is the entry point of the application. It creates a BankProxy
+ * object and uses it to perform some operations on the bank accounts.
+ */
 int main() 
 {
     BankProxy bankProxy;
